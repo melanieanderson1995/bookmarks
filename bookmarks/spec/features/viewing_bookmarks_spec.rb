@@ -11,10 +11,10 @@ end
 
 feature 'Viewing bookmarks' do
   scenario 'A user can see bookmarks' do
-    Bookmark.create(url: "http://www.makersacademy.com", title: "Makers Academy")
-    Bookmark.create(url: "http://www.destroyallsoftware.com", title: "Destroy All Software")
-    Bookmark.create(url: "http://www.google.com", title: "Google")
-    Bookmark.create(url: "http://www.github.com/melanieanderson1995", title: "My Github")
+    Bookmark.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
+    Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
+    Bookmark.create(url: 'http://www.google.com', title: 'Google')
+    Bookmark.create(url: 'http://www.github.com/melanieanderson1995', title: 'My Github')
 
     visit('/bookmarks')
 
